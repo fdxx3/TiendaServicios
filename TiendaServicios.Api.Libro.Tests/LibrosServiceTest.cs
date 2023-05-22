@@ -35,7 +35,7 @@ namespace TiendaServicios.Api.Libro.Tests
 
 
 
-        private Mock<ContextoLibreria> CrearContexto() {
+        private Mock<ContextoLibreria> CrearContexto() { //Crea un mock de contexto
 
             var dataPrueba = ObtenerDataPrueba().AsQueryable();
 
